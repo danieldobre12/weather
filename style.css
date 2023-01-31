@@ -1,0 +1,31 @@
+body {
+    transition: all 0.8s;
+  }
+  
+  .signup-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    padding: 8px;
+    justify-content: space-between;
+  }
+  
+  label {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px;
+  }
+  
+  button {
+    max-width: 128px;
+  }
+  
+  .card .delete {
+    display: none;
+    text-decoration: none;
+  }
+  
+  .card:hover .delete {
+    display: initial;
+  }
+  
